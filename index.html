@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Gribera</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./img/dev-to-svgrepo-com.svg" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel='stylesheet' href='https://unpkg.com/emoji.css/dist/emoji.min.css'>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+</head>
+
+
+<nav>
+    <ul>
+        <li> <a href="#about"> Guillermo Ribera</a></li>
+    </ul>
+
+    <ul class="nav-right">
+        <li> <a href="#about" id="aboutNav">Sobre mí</a></li>
+        <li> <a href="#experience" id="expNav">Experiencia</a></li>
+        <li> <a href="#studies" id="studiNav">Estudios</a></li>
+        <li> <a href="#contact" id="contacNav" >Contacto</a></li>
+        <li onclick="window.dialog.showModal();"><i class="fa-sharp fa-solid fa-globe"></i></li>
+    </ul>
+    <input type="checkbox" id="menu_checkbox">
+    <label class="box-br" for="menu_checkbox">
+      <div class="div-box"></div>
+      <div class="div-box"></div>
+      <div class="div-box"></div>
+    </label>
+    <div class="movile-menu" id="movile-menu">
+      <ul class="nav-movile">
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="#experience">Experiencia</a></li>
+        <li><a href="#studies">Estudios</a></li>
+        <li><a href="#contact">Contacto</a></li>
+        <li onclick="window.dialog.showModal();"><i class="fa-sharp fa-solid fa-globe"></i></li>
+      </ul>
+    </div>
+</nav>
+<header id="about">
+    <div class="container-center" style="margin-top: 3em;">
+        <h1 class="span-auto-h">Hello World! I'm Gribera </h1>
+    </div>
+</header>
+<main>
+    <dialog id="dialog">
+        <h4>Selecciona Idioma / Select Language</h4>
+        <div class="div-lang">
+            <button onclick="window.dialog.close();" id="ES">ES</button>
+            <button onclick="window.dialog.close();" id="EN">EN</button>
+        </div>
+        <button onclick="window.dialog.close();" aria-label="close" class="x">X</button>
+    </dialog>
+
+
+<article>
+<div class="container-center-wrap" >
+    <div class="cointainer-50" id="imgs">
+        <div class="container">
+            <input type="radio" name="slider" id="item-1" checked>
+            <input type="radio" name="slider" id="item-2">
+            <input type="radio" name="slider" id="item-3">
+            <!-- <img class="img-width fade-in-left" src="/img/model.png">  -->
+            <div class="cards fade-in-left">
+                <label class="card" for="item-1" id="img-1">
+                    <img src="./img/model.png" id="img-me1">
+                </label>
+                <label class="card" for="item-2" id="img-2">
+                    <img src="./img/model.png" id="img-me2">
+                </label>
+                <label class="card" for="item-3" id="img-3">
+                    <img src="./img/model.png" id="img-me3">
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="cointainer-50" id="aboutme">
+        <div class="container-text fade-in-right">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget lectus enim. Donec dui dui, sodales sit amet mi ac, dapibus faucibus magna. Vivamus efficitur dictum faucibus. Aenean tristique tempus leo, et fermentum mauris cursus quis. Morbi eu blandit nisi, dignissim placerat nibh. Sed sed viverra tortor. Vivamus non metus condimentum, luctus erat et, bibendum odio.</p>
+            
+            <p>Ut ut enim fermentum, blandit dolor sed, auctor lorem. Curabitur auctor, massa non faucibus dapibus, mauris quam egestas ante, et ornare metus odio id elit. Curabitur blandit cursus risus sit amet suscipit. Quisque tellus massa, tristique sed libero et, sollicitudin suscipit velit. Etiam aliquet tortor porta arcu fringilla elementum. Nunc et vulputate ex. Suspendisse vel arcu eleifend, convallis odio eget, gravida metus. Sed molestie et ligula vel vulputate. Vivamus consectetur magna sapien, vitae convallis lacus venenatis non. Nulla facilisi. Praesent imperdiet, lectus sed rhoncus ultricies, purus velit lobortis ligula, vel eleifend turpis ex ac leo. Phasellus ut rutrum eros.</p>
+            
+            <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam quis lorem turpis. Aliquam venenatis tellus in facilisis viverra. Nam sodales tristique faucibus. Vivamus purus justo, dapibus vulputate blandit non, maximus eu ex. In dapibus orci sed tortor volutpat viverra. Aenean efficitur placerat dolor, eget accumsan nisl elementum et. Donec laoreet urna nulla, accumsan consequat magna commodo sit amet. Morbi tincidunt eu dolor non gravida.</p>
+        
+            <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam quis lorem turpis. Aliquam venenatis tellus in facilisis viverra. Nam sodales tristique faucibus. Vivamus purus justo, dapibus vulputate blandit non, maximus eu ex. In dapibus orci sed tortor volutpat viverra. Aenean efficitur placerat dolor, eget accumsan nisl elementum et. Donec laoreet urna nulla, accumsan consequat magna commodo sit amet. Morbi tincidunt eu dolor non gravida.</p>
+        </div>
+    </div>
+</div>
+</article>
+<article>
+<div class="container-center-rest" id="experience">
+    <h2 id="experience-text">Experiencia</h2>
+    <div class="experience" >
+        <div class="div-left-exp">
+            <hr class="hr-color" id="hr-1">
+        </div>
+    </div>
+    <div class="experience">
+        <div class="div-flex-50-exp" id="exp-1">
+            <div class="cointainer-50" >
+                <div style="display: flex;">
+                    <img  class ="img-exp" src="./img/bicicleta-de-monta-a-modelo-blanco - negro-y-amarillo-sin-branding-2.png">
+                </div>
+            </div>
+            <div class="cointainer-50" i>
+                    <h3>Desarrollador .NET</h3>
+                    <h3><a href="https://mondraker.com/es/es/home-es">Mondraker</a> &nbsp; &nbsp; &nbsp;   Marzo 2022 - Actualidad</h3>
+                    <p>Ut ut enim fermentum, blandit dolor sed, auctor lorem. Curabitur auctor, massa non faucibus dapibus, mauris quam egestas ante, et ornare metus odio id elit. Curabitur blandit cursus risus sit amet suscipit. Quisque tellus massa, tristique sed libero et, sollicitudin suscipit velit. Etiam aliquet tortor porta arcu fringilla elementum. Nunc et vulputate ex. Suspendisse vel arcu eleifend, convallis odio eget, gravida metus. Sed molestie et ligula vel vulputate. Vivamus consectetur magna sapien, vitae convallis lacus venenatis non. Nulla facilisi. Praesent imperdiet, lectus sed rhoncus ultricies, purus velit lobortis ligula, vel eleifend turpis ex ac leo. Phasellus ut rutrum eros.</p>
+                    
+                    <ul class="list-aptitudes">
+                        <li>Loren</li>
+                        <li>Loren</li>
+                        <li>Loren</li>
+                        <li>Loren</li>
+                    </ul>
+            </div>
+        </div>
+        <div class="div-right-exp">
+            <hr class="hr-color" id="hr-2">
+        </div>
+        <div class="div-flex-50-exp" id="exp-2">
+            <div class="cointainer-50" id="exp-text-2">
+                <h3>Técnico de Sistemas</h3>
+                <h3><a >Rada Sistemas</a> &nbsp; &nbsp; &nbsp;   Marzo 2019 - Junio 2019</h3>
+                <p>Ut ut enim fermentum, blandit dolor sed, auctor lorem. Curabitur auctor, massa non faucibus dapibus, mauris quam egestas ante, et ornare metus odio id elit. Curabitur blandit cursus risus sit amet suscipit. Quisque tellus massa, tristique sed libero et, sollicitudin suscipit velit. Etiam aliquet tortor porta arcu fringilla elementum. Nunc et vulputate ex. Suspendisse vel arcu eleifend, convallis odio eget, gravida metus. Sed molestie et ligula vel vulputate. Vivamus consectetur magna sapien, vitae convallis lacus venenatis non. Nulla facilisi. Praesent imperdiet, lectus sed rhoncus ultricies, purus velit lobortis ligula, vel eleifend turpis ex ac leo. Phasellus ut rutrum eros.</p>
+                
+                <ul class="list-aptitudes">
+                    <li>Loren</li>
+                    <li>Loren</li>
+                    <li>Loren</li>
+                    <li>Loren</li>
+                </ul>
+            </div>
+            <div class="cointainer-50" id="exp-img-2">
+                <div style="display: flex;">
+                    <img  class ="img-exp" src="./img/ordenador-gaming-sobremesa (1).png">
+                </div>
+            </div>
+        </div>
+        <!-- <div class="div-left-exp">
+            <hr class="hr-color" id="hr-3">
+        </div> -->
+    </div>
+</div>
+</article>
+<article>
+<div class="container-center-rest" id="studies">
+    <h2 id="studies-text">Estudios y Certificaciones</h2>
+    <div class="experience" >
+        <div class="div-left-exp">
+            <hr class="hr-color" id="hr-4">
+        </div>
+    </div>
+    <div class="container-center-wrap-courses" id="sutides-content">
+            <div class="div-flex-50">
+                <div class="div-course">
+                    <div class="course-header"  id="desarrollo">
+                        <h3 class="header-text">Desarrollo de Aplicaciones Web </h3>
+                        <div>
+                        <img class="svg-head" src="./img/reshot-icon-programming-KLA56NUXFZ.svg">
+                        <button class="button-minus" id="minusD">
+                            <span></span>
+                            <span></span>
+                        </button>
+                        </div>
+                    </div>
+                    <div class="course-content" id="desarrollo-c">
+                        <div class="content">
+                         <h4>IES Severo Ochoa &nbsp; &nbsp; &nbsp; Septiembre 2020 - Junio 2022</h4>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, sed minus! Commodi perferendis maxime temporibus neque laudantium dignissimos aut ea nostrum earum quasi? Recusandae, nulla eligendi sit eius eum esse!</p>
+                         <div class="tecnolgs">
+                             <img src="./img/java-4.svg" class="svg">
+                             <img src="./img/laravel-2.svg" class="svg">
+                             <img src="./img/javascript-1.svg" class="svg">
+                             <img src="./img/css-3.svg" class="svg">
+                             <img src="./img/bootstrap-4.svg" class="svg">
+                             <img src="./img/mariadb.svg" class="svg">
+                             <img src="./img/docker-1.svg" class="svg">
+                         </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="div-flex-50">
+                <div class="div-course">
+                    <div class="course-header"  id="sistemas">
+                        <h3 class="header-text">Sistemas Microinformáticos y Redes</h3>
+                        <div>
+                            <img class="svg-head" src="./img/reshot-icon-server-connections-FX9TVLPCU8.svg">
+                            <button class="button-minus" id="minusS">
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                <div class="course-content" id="sistemas-c">
+                        <div class="content">
+                         <h4>IES Severo Ochoa &nbsp; &nbsp; &nbsp; Septiembre 2017 - Junio 2019</h4>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, sed minus! Commodi perferendis maxime temporibus neque laudantium dignissimos aut ea nostrum earum quasi? Recusandae, nulla eligendi sit eius eum esse!</p>
+                         <div class="tecnolgs">
+                             <img src="./img/bash-1.svg" class="svg">
+                             <img src="./img/laravel-2.svg" class="svg">
+                             <img src="./img/javascript-1.svg" class="svg">
+                             <img src="./img/css-3.svg" class="svg">
+                             <img src="./img/bootstrap-4.svg" class="svg">
+                             <img src="./img/mariadb.svg" class="svg">
+                             <img src="./img/docker-1.svg" class="svg">
+                         </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="div-certifications">
+                <img src="./img/Udemy New 2021.svg" class="svg cert"> 
+                <ul class="list-aptitudes list-cert control">
+                    <li ><a href="https://www.udemy.com/certificate/UC-0c2b7d58-0380-4a87-b1b0-d6e0ec670b62/">Patrones de diseño en C# Aplicados en ASP .Net</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</article>
+<article>
+    <div class="container-center-rest" id="contact">
+        <h2 id="contact-text" class="contact-h2">Contacto</h2>
+        <div class="experience" >
+            <div class="div-right-exp">
+                <hr class="hr-color" id="hr-5">
+            </div>
+        </div>
+        <div class="container-center-wrap-courses" id="contact-content">
+            <ul class="social">
+                <li> <a href="mailto: gribera.dev@gmail.com"><i class="fa-solid fa-square-envelope fa-34x"></i> <span class="social-t"> Gribera.dev@gmail.com</span></a></li>
+                <li> <a href="https://github.com/AkxierTK"><i class="fa-brands fa-square-github fa-34x"></i> <span class="social-t"> GitHub</span></a></li>
+                <li> <a href="https://www.linkedin.com/in/guillermo-ribera-pel%C3%A1ez/"><i class="fa-brands fa-linkedin fa-34x"></i> <span class="social-t"> Linkedin</span></a></li>
+            </ul>
+        </div>
+    </div>
+</article>
+</main>
+
+
+<script src="./js/navWorkFlow.js"></script>
+<script src="./js/programingCode.js"></script>
+<script src="./js/inputSelection.js"></script>
+<script src="./js/event.js"></script>
+<script src="./js/lan.js"></script>
+<script src="https://kit.fontawesome.com/5236d6ac81.js" crossorigin="anonymous"></script>
+</html>
