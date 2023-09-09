@@ -4,13 +4,13 @@
 <head>
     <meta charset="utf-8">
     <title>Gribera</title>
-    <link rel="shortcut icon" type="image/x-icon" href="./img/dev-to-svgrepo-com.svg" />
+    <link rel="shortcut icon" type="image/x-icon" href="./img/GR.svg" />
     <link rel="stylesheet" href="./css/style.css">
     <link rel='stylesheet' href='https://unpkg.com/emoji.css/dist/emoji.min.css'>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
 </head>
 
-
+<body>
 <nav>
     <ul>
         <li> <a href="#about"> Guillermo Ribera</a></li>
@@ -31,10 +31,10 @@
     </label>
     <div class="movile-menu" id="movile-menu">
       <ul class="nav-movile">
-        <li><a href="#about">Sobre mí</a></li>
-        <li><a href="#experience">Experiencia</a></li>
-        <li><a href="#studies">Estudios</a></li>
-        <li><a href="#contact">Contacto</a></li>
+        <li><a href="#about" id="aboutNav2">Sobre mí</a></li>
+        <li><a href="#experience" id="expNav2">Experiencia</a></li>
+        <li><a href="#studies" id="studiNav2">Estudios</a></li>
+        <li><a href="#contact" id="contacNav2">Contacto</a></li>
         <li onclick="window.dialog.showModal();"><i class="fa-sharp fa-solid fa-globe"></i></li>
       </ul>
     </div>
@@ -68,7 +68,7 @@
                     <img src="./img/model.png" id="img-me1">
                 </label>
                 <label class="card" for="item-2" id="img-2">
-                    <img src="./img/model.png" id="img-me2">
+                    <img src="./img/model-2.png" id="img-me2">
                 </label>
                 <label class="card" for="item-3" id="img-3">
                     <img src="./img/model.png" id="img-me3">
@@ -78,13 +78,16 @@
     </div>
     <div class="cointainer-50" id="aboutme">
         <div class="container-text fade-in-right">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget lectus enim. Donec dui dui, sodales sit amet mi ac, dapibus faucibus magna. Vivamus efficitur dictum faucibus. Aenean tristique tempus leo, et fermentum mauris cursus quis. Morbi eu blandit nisi, dignissim placerat nibh. Sed sed viverra tortor. Vivamus non metus condimentum, luctus erat et, bibendum odio.</p>
+            <p id="me-1">Hola, soy Guillermo, un apasionado desarrollador tecnológico. Tengo experiencia siendo Full Stack, aunque mi corazón late más fuerte por el Back-End💘. 
+                Tengo conocimientos en diversos lenguajes como PHP, JAVA, VB y C# que respaldan mi capacidad para enfrentar desafíos variados.</p>
             
-            <p>Ut ut enim fermentum, blandit dolor sed, auctor lorem. Curabitur auctor, massa non faucibus dapibus, mauris quam egestas ante, et ornare metus odio id elit. Curabitur blandit cursus risus sit amet suscipit. Quisque tellus massa, tristique sed libero et, sollicitudin suscipit velit. Etiam aliquet tortor porta arcu fringilla elementum. Nunc et vulputate ex. Suspendisse vel arcu eleifend, convallis odio eget, gravida metus. Sed molestie et ligula vel vulputate. Vivamus consectetur magna sapien, vitae convallis lacus venenatis non. Nulla facilisi. Praesent imperdiet, lectus sed rhoncus ultricies, purus velit lobortis ligula, vel eleifend turpis ex ac leo. Phasellus ut rutrum eros.</p>
+            <p id="me-2">Lo que más me motiva en el desarrollo de aplicaciones es participar en todo el proyecto. 
+                Creo que comprender profundamente el propósito de un proyecto es esencial para brindar las mejores soluciones posibles. 
+                Estoy comprometido en entender las necesidades de mis clientes y  ofrecer resultados excepcionales.</p>
             
-            <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam quis lorem turpis. Aliquam venenatis tellus in facilisis viverra. Nam sodales tristique faucibus. Vivamus purus justo, dapibus vulputate blandit non, maximus eu ex. In dapibus orci sed tortor volutpat viverra. Aenean efficitur placerat dolor, eget accumsan nisl elementum et. Donec laoreet urna nulla, accumsan consequat magna commodo sit amet. Morbi tincidunt eu dolor non gravida.</p>
-        
-            <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam quis lorem turpis. Aliquam venenatis tellus in facilisis viverra. Nam sodales tristique faucibus. Vivamus purus justo, dapibus vulputate blandit non, maximus eu ex. In dapibus orci sed tortor volutpat viverra. Aenean efficitur placerat dolor, eget accumsan nisl elementum et. Donec laoreet urna nulla, accumsan consequat magna commodo sit amet. Morbi tincidunt eu dolor non gravida.</p>
+            <p id="me-3">Estoy muy interesado en los datos y su análisis por lo que estoy aprendiendo de sistemas de Big Data e Inteligencia Artificial para sacar el mayor potencial
+                de los datos de mis clientes. ¡Si tienes un proyecto estaré encantado de ayudarte✌!
+            </p>
         </div>
     </div>
 </div>
@@ -104,16 +107,24 @@
                     <img  class ="img-exp" src="./img/bicicleta-de-monta-a-modelo-blanco - negro-y-amarillo-sin-branding-2.png">
                 </div>
             </div>
-            <div class="cointainer-50" i>
-                    <h3>Desarrollador .NET</h3>
-                    <h3><a href="https://mondraker.com/es/es/home-es">Mondraker</a> &nbsp; &nbsp; &nbsp;   Marzo 2022 - Actualidad</h3>
-                    <p>Ut ut enim fermentum, blandit dolor sed, auctor lorem. Curabitur auctor, massa non faucibus dapibus, mauris quam egestas ante, et ornare metus odio id elit. Curabitur blandit cursus risus sit amet suscipit. Quisque tellus massa, tristique sed libero et, sollicitudin suscipit velit. Etiam aliquet tortor porta arcu fringilla elementum. Nunc et vulputate ex. Suspendisse vel arcu eleifend, convallis odio eget, gravida metus. Sed molestie et ligula vel vulputate. Vivamus consectetur magna sapien, vitae convallis lacus venenatis non. Nulla facilisi. Praesent imperdiet, lectus sed rhoncus ultricies, purus velit lobortis ligula, vel eleifend turpis ex ac leo. Phasellus ut rutrum eros.</p>
+            <div class="cointainer-50" >
+                    <h3 id="cargo-m">Desarrollador .NET</h3>
+                    <h3><a href="https://mondraker.com/es/es/home-es">Mondraker</a> &nbsp; &nbsp; &nbsp;   <span id="time-m">Marzo 2022 - Actualidad</span></h3>
+                    <p id="desc-m">Como desarrollador, he sido responsable de la integración, desarrollo y mantenimiento de plataformas B2B y B2C, 
+                        asegurando su conexión efectiva con el sistema ERP a través de bases de datos intermedias y servicios API REST. 
+                        Además, he desempeñado un papel crucial en la resolución de incidencias y tareas relacionadas con el ERP, 
+                        brindando un soporte vital para los usuarios. Mi gestión incluye el mantenimiento y la optimización de la base de datos y sistemas SSIS. </p>
                     
                     <ul class="list-aptitudes">
-                        <li>Loren</li>
-                        <li>Loren</li>
-                        <li>Loren</li>
-                        <li>Loren</li>
+                        <li id="list-m-1">Liderar el desarrollo y gestión desde cero de la integración de una aplicación B2C para el mercado del Reino Unido 
+                            en tan solo 4 meses, incluyendo la generación de pedidos, albaranes, facturas, devoluciones, 
+                            y la gestión de controles de stock, tarifas y descuentos en el ERP.</li>
+                        <li id="list-m-2">Implementar procesos que agilizaron y automatizaron las tareas diarias de diversos departamentos en el ERP,
+                             reduciendo significativamente el tiempo requerido para completarlas.</li>
+                        <li id="list-m-3">Desarrollar aplicaciones web internas que reemplazaron la necesidad de utilizar software de terceros, 
+                            lo que resultó en ahorros significativos en costos.</li>
+                        <li id="list-m-4">Lograr una optimización destacable de la base de datos intermedia y de las plataformas mediante la implementación de SSIS, 
+                            reduciendo el tiempo de ejecución en más de un 80%.</li>
                     </ul>
             </div>
         </div>
@@ -122,16 +133,15 @@
         </div>
         <div class="div-flex-50-exp" id="exp-2">
             <div class="cointainer-50" id="exp-text-2">
-                <h3>Técnico de Sistemas</h3>
-                <h3><a >Rada Sistemas</a> &nbsp; &nbsp; &nbsp;   Marzo 2019 - Junio 2019</h3>
-                <p>Ut ut enim fermentum, blandit dolor sed, auctor lorem. Curabitur auctor, massa non faucibus dapibus, mauris quam egestas ante, et ornare metus odio id elit. Curabitur blandit cursus risus sit amet suscipit. Quisque tellus massa, tristique sed libero et, sollicitudin suscipit velit. Etiam aliquet tortor porta arcu fringilla elementum. Nunc et vulputate ex. Suspendisse vel arcu eleifend, convallis odio eget, gravida metus. Sed molestie et ligula vel vulputate. Vivamus consectetur magna sapien, vitae convallis lacus venenatis non. Nulla facilisi. Praesent imperdiet, lectus sed rhoncus ultricies, purus velit lobortis ligula, vel eleifend turpis ex ac leo. Phasellus ut rutrum eros.</p>
+                <h3 id="cargo-r">Técnico de Sistemas</h3>
+                <h3><a >Rada Sistemas</a> &nbsp; &nbsp; &nbsp;   <span id="time-r">Marzo 2019 - Junio 2019</span></h3>
+                <p id="desc-r">Durante mis prácticas, adquirí experiencia en la reparación y mantenimiento de equipos electrónicos, 
+                    centrándome en dispositivos de escritorio y móvil. Realicé diagnósticos de fallas, 
+                    llevé a cabo reparaciones de hardware y software y mantuve registros detallados de mantenimiento preventivo.
+                     Además, desarrollé habilidades sólidas en la atención al cliente, gestionando consultas y quejas de manera efectiva y
+                      asegurando la satisfacción del cliente en todo momento. </p>
                 
-                <ul class="list-aptitudes">
-                    <li>Loren</li>
-                    <li>Loren</li>
-                    <li>Loren</li>
-                    <li>Loren</li>
-                </ul>
+               
             </div>
             <div class="cointainer-50" id="exp-img-2">
                 <div style="display: flex;">
@@ -157,7 +167,7 @@
             <div class="div-flex-50">
                 <div class="div-course">
                     <div class="course-header"  id="desarrollo">
-                        <h3 class="header-text">Desarrollo de Aplicaciones Web </h3>
+                        <h3 class="header-text" id="daw">Desarrollo de Aplicaciones Web </h3>
                         <div>
                         <img class="svg-head" src="./img/reshot-icon-programming-KLA56NUXFZ.svg">
                         <button class="button-minus" id="minusD">
@@ -168,8 +178,10 @@
                     </div>
                     <div class="course-content" id="desarrollo-c">
                         <div class="content">
-                         <h4>IES Severo Ochoa &nbsp; &nbsp; &nbsp; Septiembre 2020 - Junio 2022</h4>
-                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, sed minus! Commodi perferendis maxime temporibus neque laudantium dignissimos aut ea nostrum earum quasi? Recusandae, nulla eligendi sit eius eum esse!</p>
+                         <h4>IES Severo Ochoa &nbsp; &nbsp; &nbsp; <span id="daw-t">Septiembre 2020 - Junio 2022</span></h4>
+                         <p id="daw-d">La FP DAW es una titulación que me ha proporcionado una sólida base en el diseño,
+                             desarrollo y mantenimiento de aplicaciones web. Durante mi formación, adquirí competencias en programación, 
+                             diseño de interfaces de usuario, gestión de bases de datos y seguridad en aplicaciones web.</p>
                          <div class="tecnolgs">
                              <img src="./img/java-4.svg" class="svg">
                              <img src="./img/laravel-2.svg" class="svg">
@@ -186,7 +198,7 @@
             <div class="div-flex-50">
                 <div class="div-course">
                     <div class="course-header"  id="sistemas">
-                        <h3 class="header-text">Sistemas Microinformáticos y Redes</h3>
+                        <h3 class="header-text" id="msr">Sistemas Microinformáticos y Redes</h3>
                         <div>
                             <img class="svg-head" src="./img/reshot-icon-server-connections-FX9TVLPCU8.svg">
                             <button class="button-minus" id="minusS">
@@ -197,14 +209,14 @@
                     </div>
                 <div class="course-content" id="sistemas-c">
                         <div class="content">
-                         <h4>IES Severo Ochoa &nbsp; &nbsp; &nbsp; Septiembre 2017 - Junio 2019</h4>
-                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, sed minus! Commodi perferendis maxime temporibus neque laudantium dignissimos aut ea nostrum earum quasi? Recusandae, nulla eligendi sit eius eum esse!</p>
+                         <h4>IES Severo Ochoa &nbsp; &nbsp; &nbsp; <span id="msr-t">Septiembre 2017 - Junio 2019</span> </h4>
+                         <p id="msr-d">La FP SMR me ha proporcionado una sólida formación en la administración y mantenimiento de sistemas informáticos,
+                             así como en la gestión de redes. Durante mi programa de estudios, he adquirido habilidades técnicas en la configuración y
+                              resolución de problemas de hardware y software.
+                               También he desarrollado competencias en la implementación y administración de redes, 
+                               asegurando su funcionamiento eficiente y seguro. </p>
                          <div class="tecnolgs">
                              <img src="./img/bash-1.svg" class="svg">
-                             <img src="./img/laravel-2.svg" class="svg">
-                             <img src="./img/javascript-1.svg" class="svg">
-                             <img src="./img/css-3.svg" class="svg">
-                             <img src="./img/bootstrap-4.svg" class="svg">
                              <img src="./img/mariadb.svg" class="svg">
                              <img src="./img/docker-1.svg" class="svg">
                          </div>
@@ -215,7 +227,7 @@
             <div class="div-certifications">
                 <img src="./img/Udemy New 2021.svg" class="svg cert"> 
                 <ul class="list-aptitudes list-cert control">
-                    <li ><a href="https://www.udemy.com/certificate/UC-0c2b7d58-0380-4a87-b1b0-d6e0ec670b62/">Patrones de diseño en C# Aplicados en ASP .Net</a></li>
+                    <li ><a href="https://www.udemy.com/certificate/UC-0c2b7d58-0380-4a87-b1b0-d6e0ec670b62/"><span id="u-p">Patrones de diseño en C# Aplicados en ASP .Net </span></a></li>
                 </ul>
             </div>
         </div>
@@ -235,6 +247,7 @@
                 <li> <a href="mailto: gribera.dev@gmail.com"><i class="fa-solid fa-square-envelope fa-34x"></i> <span class="social-t"> Gribera.dev@gmail.com</span></a></li>
                 <li> <a href="https://github.com/AkxierTK"><i class="fa-brands fa-square-github fa-34x"></i> <span class="social-t"> GitHub</span></a></li>
                 <li> <a href="https://www.linkedin.com/in/guillermo-ribera-pel%C3%A1ez/"><i class="fa-brands fa-linkedin fa-34x"></i> <span class="social-t"> Linkedin</span></a></li>
+                <li> <a href="https://www.instagram.com/gribera.dev/"><i class="fa-brands fa-square-instagram fa-34x"></i><span class="social-t"> Instagram</span></a></li>
             </ul>
         </div>
     </div>
@@ -248,4 +261,5 @@
 <script src="./js/event.js"></script>
 <script src="./js/lan.js"></script>
 <script src="https://kit.fontawesome.com/5236d6ac81.js" crossorigin="anonymous"></script>
+</body>
 </html>

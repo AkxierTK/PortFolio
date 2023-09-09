@@ -56,28 +56,28 @@ function changeImageSrc() {
   
     if (screenWidth>=831 && screenWidth <= 1500) {
       document.getElementById('img-me1').src = './img/model-350.png';
-      document.getElementById('img-me2').src = './img/model-350.png';
-      document.getElementById('img-me3').src = './img/model-350.png';
+      document.getElementById('img-me2').src = './img/model-3-350.png';
+      document.getElementById('img-me3').src = './img/model-2-350.png';
     }else if(screenWidth>=600 && screenWidth <= 830){
-        document.getElementById('img-me1').src = './img/model-309.png';
-        document.getElementById('img-me2').src = './img/model-309.png';
-        document.getElementById('img-me3').src = './img/model-309.png';
+        document.getElementById('img-me1').src = './img/model-300.png';
+        document.getElementById('img-me2').src = './img/model-3-300.png';
+        document.getElementById('img-me3').src = './img/model-2-300.png';
     }else if(screenWidth>=460 && screenWidth <= 600){
         document.getElementById('img-me1').src = './img/model-280.png';
-        document.getElementById('img-me2').src = './img/model-280.png';
-        document.getElementById('img-me3').src = './img/model-280.png';
+        document.getElementById('img-me2').src = './img/model-3-280.png';
+        document.getElementById('img-me3').src = './img/model-2-280.png';
     }else if(screenWidth>420 &&  screenWidth < 460){
         document.getElementById('img-me1').src = './img/model-250.png';
-        document.getElementById('img-me2').src = './img/model-250.png';
-        document.getElementById('img-me3').src = './img/model-250.png';
+        document.getElementById('img-me2').src = './img/model-3-250.png';
+        document.getElementById('img-me3').src = './img/model-2-250.png';
     }else if( screenWidth <= 420){
         document.getElementById('img-me1').src = './img/model-180.png';
-        document.getElementById('img-me2').src = './img/model-180.png';
-        document.getElementById('img-me3').src = './img/model-180.png';
+        document.getElementById('img-me2').src = './img/model-3-180.png';
+        document.getElementById('img-me3').src = './img/model-2-180.png';
     } else {
         document.getElementById('img-me1').src = './img/model.png';
-        document.getElementById('img-me2').src = './img/model.png';
-        document.getElementById('img-me3').src = './img/model.png';
+        document.getElementById('img-me2').src = './img/model-3.png';
+        document.getElementById('img-me3').src = './img/model-2.png';
     }
   }
   

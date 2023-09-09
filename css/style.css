@@ -55,6 +55,9 @@
     margin: 0.5em;
     margin-right: 1em;
 }
+.container-text>p{
+  font-size: 20px;
+}
 
 
 nav{
@@ -306,6 +309,7 @@ a:hover{
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: 400;
   margin: 0 auto;
+  margin-top: 0.25em;
 }
 
   .list-aptitudes li::before {
@@ -740,6 +744,10 @@ dialog {
 	
 }
 
+#aboutme{
+  margin-top: 5em;
+}
+
 
 
 
@@ -781,12 +789,20 @@ dialog {
  .container{
   min-height: 400px;
  }
+
+ #aboutme{
+  margin-top: 10em;
+}
 }
 
 @media only screen and (max-width: 1500px) {
 
   .img-exp{
     width: 80%;
+  }
+
+  .container-center-wrap{
+    margin-bottom: 5%;
   }
 
 }
@@ -829,6 +845,12 @@ dialog {
   font-size: 1.25em;
 }
 
+}
+
+@media only screen and (max-width: 920px) {
+  #aboutme{
+    margin-top: 5%;
+  }
 }
 
 
@@ -899,6 +921,10 @@ dialog {
     width:100%;
   }
 
+  #aboutme{
+    margin-top: 2%;
+  }
+
 }
 
 
@@ -915,6 +941,13 @@ h4{
   font-size: 0.90em;
 }
 
+.container-text>p{
+  font-size: 16px;
+}
+
+.p{
+  font-size: 16px;
+}
 
 
 
